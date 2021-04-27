@@ -16,6 +16,6 @@ jobs:
         uses: pgrimaud/action-shopify@master
         env:
           SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}
-          SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
-          SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID }}
-          THEME_PATH: ${{ secrets.THEME_PATH }}
+          SHOPIFY_STORE_URL: whelehans-wine-tmac.myshopify.com
+          SHOPIFY_THEME_ID: 122257506487
+          THEME_PATH: ./shopify-theme
